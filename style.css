@@ -1,0 +1,17 @@
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+#display {
+    font-size: 50px;
+}
+
+.num, .operator, #equal, #clear {
+    padding: 20px;
+    margin: 5px;
+}
